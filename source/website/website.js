@@ -776,7 +776,7 @@ export class Website
         this.sidebar.ShowPanels (showSidebar);
     }
 
-    InitCookieConsent ()
+   /*  InitCookieConsent ()
     {
         let accepted = CookieGetBoolVal ('ov_cookie_consent', false);
         if (accepted) {
@@ -791,5 +791,5 @@ export class Website
             CookieSetBoolVal ('ov_cookie_consent', true);
             popupDiv.remove ();
         });
-    }
+    } */
 }

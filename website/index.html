@@ -31,18 +31,7 @@
     <script type="text/javascript" src="../build/o3dv.website.min-dev.js"></script>
     <!-- website end -->
 
-    <!-- analytics start -->
-    <script type="text/javascript">
-        OV.SetWebsiteEventHandler ((eventName, eventLabel, eventParams) => {
-            console.log ({
-                eventName : eventName,
-                eventLabel : eventLabel,
-                eventParams : eventParams
-            });
-        });
-    </script>
-    <!-- analytics end -->
-
+<!--  -->
     <!-- website init start -->
     <script type="text/javascript">
         OV.StartWebsite ('../libs');
@@ -57,7 +46,7 @@
 <body>
     <input type="file" id="open_file" style="display:none;" multiple></input>
     <div class="header" id="header">
-        <div class="title">
+<!--         <div class="title">
             <div class="title_left">
                 <a href="index.html">
                     <svg class="logo_image"><use href="assets/images/3dviewer_net_logo_text.svg#logo"></use></svg>
@@ -65,7 +54,7 @@
             </div>
             <div class="title_right" id="header_buttons"></div>
             <div class="main_file_name only_full_width" id="main_file_name"></div>
-        </div>
+        </div> -->
         <div class="toolbar" id="toolbar"></div>
     </div>
     <div class="main" id="main">
